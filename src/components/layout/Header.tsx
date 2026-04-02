@@ -14,7 +14,7 @@ export function Header({ title, subtitle }: HeaderProps) {
           <p className="mt-1 text-sm text-gray-600">{subtitle}</p>
         </div>
 
-        <WeatherWidget city="深圳" temperature="26°C" condition="多云" />
+        <WeatherWidget />
       </div>
     </header>
   );
